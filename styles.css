@@ -1,0 +1,131 @@
+.container-fluid {
+  padding: 1% 10%;
+}
+
+.container-fluid-custom {
+  padding: 3% 10%;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.nav-link {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.nav-item {
+  padding: 0px 10px 0px 10px;
+}
+
+#featured {
+  align-items: center;
+}
+
+.featured-img {
+  width: 100%;
+  height: 100%;
+}
+.featured-caption {
+  padding: 70px 20px;
+}
+
+#products {
+  background-color: #f2edf8;
+}
+
+.card {
+  background-color: #f2edf8;
+  border: none;
+  padding: 0px 25px;
+  text-align: center;
+}
+
+.card img {
+  margin-bottom: 5%;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #8147b8;
+  border: 1px #8147b8 solid;
+  padding: 3% 10% 3% 10%;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background-color: #f2edf8;
+  border: 1px #8147b8 solid;
+  color: #8147b8;
+}
+
+.btn-secondary {
+  background-color: #f2edf8;
+  border: 1px #8147b8 solid;
+  padding: 3% 10% 3% 10%;
+  border-radius: 30px;
+  color: #8147b8;
+  width: 100%;
+}
+
+.btn-secondary:hover {
+  background-color: #8147b8;
+  border: 1px #8147b8 solid;
+  color: #f2edf8;
+}
+
+.carousel-item {
+  padding: 2% 10% 5% 10%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238147B8' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238147B8' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #8147b8;
+    width: 7px;
+    height: 7px;
+    border: #8147b8 solid;
+    border-radius: 50px;
+}
+
+#footer {
+    background-color: black;
+    color: #f2edf8;
+    text-align: center;
+    padding: 10px;
+}
