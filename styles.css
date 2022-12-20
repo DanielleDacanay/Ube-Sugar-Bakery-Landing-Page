@@ -36,6 +36,11 @@ p {
   text-transform: uppercase;
 }
 
+.nav-link:hover {
+  color: #8147b8;
+  text-decoration: underline;
+}
+
 .nav-item {
   padding: 0px 10px 0px 10px;
 }
@@ -49,6 +54,7 @@ p {
   width: 100%;
   height: 100%;
 }
+
 .featured-caption {
   padding: 70px 20px;
 }
@@ -89,7 +95,7 @@ p {
   text-align: center;
 }
 
-.card img {
+.card-img {
   margin-bottom: 5%;
   width: 100%;
   height: 250px;
