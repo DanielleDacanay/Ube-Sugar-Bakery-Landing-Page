@@ -21,6 +21,11 @@ p {
   line-height: 1.5;
 }
 
+.secondary-header {
+  font-weight: 500;
+}
+
+/* Containers */
 .container-fluid {
   padding: 1% 10%;
 }
@@ -43,6 +48,11 @@ p {
 
 .nav-item {
   padding: 0px 10px 0px 10px;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #f2edf8;
 }
 
 /* Featured */
@@ -80,14 +90,6 @@ p {
 }
 
 /* Products */
-#products {
-  background-color: #f2edf8;
-}
-
-.product-category {
-  font-weight: 500;
-}
-
 .card {
   background-color: #f2edf8;
   border: none;
